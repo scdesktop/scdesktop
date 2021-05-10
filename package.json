@@ -1,0 +1,22 @@
+{
+  "name": "scdesktop",
+  "version": "1.0.0",
+  "description": "SoundCloud Desktop",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scdesktop/scdesktop.git"
+  },
+  "author": "snxx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scdesktop/scdesktop/issues"
+  },
+  "homepage": "https://github.com/scdesktop/scdesktop#readme",
+  "dependencies": {
+    "electron": "^12.0.7"
+  }
+}
