@@ -1,0 +1,21 @@
+/**
+* Author: snxx
+* For license and copyright information please follow this like:
+* GitHub: https://github.com/scdesktop/scdesktop/blob/master/LICENSE
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+a {
+	color: #FA7637;
+	text-decoration: none;
+	font-family: monospace;
+}
+
+a:visited {
+	color: #FA7637;
+}
