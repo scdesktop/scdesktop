@@ -10,12 +10,23 @@
 	border: 0;
 }
 
-a {
+a:link {
 	color: #FA7637;
 	text-decoration: none;
-	font-family: monospace;
 }
 
 a:visited {
 	color: #FA7637;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	color: #FA7637;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
 }
