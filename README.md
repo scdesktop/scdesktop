@@ -11,7 +11,7 @@
 #### Windows
 - Binaries: <https://github.com/scdesktop/scdesktop/releases>
 
-# Installing ytmdesktop
+# Installing scdesktop
 ```sh
 # Clone this repository
 $ git clone https://github.com/scdesktop/scdesktop.git
