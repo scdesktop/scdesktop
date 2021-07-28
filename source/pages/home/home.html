@@ -7,18 +7,38 @@
 	<link rel="stylesheet" type="text/css" href="./home.css"/>
 </head>
 <body>
-	<header id="userpic search" class="search avatar">
-		<input type="text" value="Search"/>
-		<img src="photo.jpg"/>
+	<header id="userpic search" class="search">
+		<form action="">
+			<input type="text" placeholder="Search"/>
+			<button type="submit">
+				<img type="image/svg+xml" src="../../assets/img/search.svg" alt="Search"/>
+			</button>
+		</form>
+		<img class="avatar" src="photo.jpg" alt="Photo"/>
 	</header>
 	<main id="items" class="content widget">
 		<div class="container">
-			
+			<div class="playlist">
+				
+			</div>
 		</div>
 	</main>
 	<aside id="sidebar" class="sidebar">
+		<a href="https://google.com">
+			<img class="burger" type="image/svg+xml" width="60" height="60" src="../../assets/img/controls/burger.svg" alt="Hamburger"/>
+		</a>
 		<div class="topic">
-			<img type="image/svg+xml" src="../../assets/img/like.svg" alt="Likes"/>
+			<a href="https://google.com">
+				<img type="image/svg+xml" width="50" height="50" src="../../assets/img/like.svg" alt="Likes"/>
+			</a>
+			<!--=====================-->
+			<a href="https://google.com">
+				<img type="image/svg+xml" width="50" height="50" src="../../assets/img/story.svg" alt="History"/>
+			</a>
+			<!--=====================-->
+			<a href="https://google.com">
+				<img class="add-playlist" type="image/svg+xml" width="50" height="50" src="../../assets/img/add.svg" alt="Add"/>
+			</a>
 		</div>
 	</aside>
 	<footer id="footer" class="footer">
