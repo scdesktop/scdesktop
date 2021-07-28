@@ -1,5 +1,5 @@
 # SoundCloud Desktop App
-<img type="image/png" src="./source/assets/img/doc/Window.png" alt="Window"/>
+<img type="image/png" src="./source/assets/img/doc/window.png" alt="Window"/>
 
 [![Discord][tg-img]](tg-url)
 [![GitHub license][license-img]](license-url)
@@ -11,7 +11,7 @@
 #### Windows
 - Binaries: <https://github.com/scdesktop/scdesktop/releases>
 
-# Installing scdesktop
+# Installing [scdesktop](https://git-scm.com/downloads)
 ```sh
 # Clone this repository
 $ git clone https://github.com/scdesktop/scdesktop.git
