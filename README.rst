@@ -2,12 +2,12 @@
 `SoundCloud Desktop <https://soundcloud.com>`_ – For Windows
 ============================================================
 
-Данная программа создается для долнейшего использование обычных юзеров интернета. 
-Идея заключается в том, чтобы слушать музыку из стриминговой платформы напрямую, не заходя в сайт. 
-Созданная программа предоставит возможность прослушивать музыку из сайта `SoundCloud <https://soundcloud.com>`_ на Вашем компьютере, - ввиде приложения.
+This program is created for further use of ordinary Internet users. 
+The idea is to listen to music from the streaming platform directly without going to the site. 
+The created program will provide an opportunity to listen to music from the SoundCloud website on your computer, - as an application.
 
-Автор выбрал для создание данного приложения именно операционную систему Windows, ибо сам автор использует данную систему.
-В дальнейшем автор подумает над реализацией на других платформах, но возможность этого очень даже мала.
+The author chose the Windows operating system for this application, because he himself uses the system.
+In the future, the author will think about implementing it on other platforms, but the possibility of this is very small.
 
 .. image:: ./source/assets/img/doc/window.png
 	:align: center
