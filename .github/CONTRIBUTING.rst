@@ -13,4 +13,4 @@ the maintainers of the project will check the changes and, if the description is
 
 To report a bug, suggest new functionality, 
 or ask a question, go to `Issues <https://github.com/scdesktop/scdesktop/issues>`_. 
-Try to make MRE (Minimal Reproducible Example) and specify your scdesktop version to let others help you.
+Try to make MRE (Minimal Reproducible Example) and specify your `scdesktop version <https://github.com/scdesktop/scdesktop/releases>`_ to let others help you.
