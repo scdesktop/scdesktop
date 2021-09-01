@@ -8,10 +8,10 @@
 - [ ] We also have a code of conduct, 
 check it out: <https://github.com/scdesktop/scdesktop/blob/develop/.github/CODE_OF_CONDUCT.rst> (check the box if you agree)
 
-## Which change are you proposing?
+#### Which change are you proposing?
 - [ ] 
 
-## Editing an existing picture or file
+#### Editing an existing picture or file
 
 
 ---
