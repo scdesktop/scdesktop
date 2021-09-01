@@ -13,9 +13,8 @@ In the future, the author will think about implementing it on other platforms, b
 	:align: center
 	:alt: Window
 
-------
 Guide:
-------
+~~~~~~
 
 1. `How to use? <https://github.com/scdesktop/scdesktop/wiki/How-to-use>`_
 2. `FAQ <https://github.com/scdesktop/scdesktop/wiki/FAQ>`_
