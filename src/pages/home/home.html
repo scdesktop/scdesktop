@@ -7,6 +7,22 @@
 	<link rel="stylesheet" type="text/css" href="./home.css"/>
 </head>
 <body>
+	<div class="wrapper">
+		<div class="search">
+			<input type="text" placeholder="Search"/>
+		</div>
+		<div class="content">
+			
+		</div>
+		<div class="sidebar">
+			
+		</div>
+		<div class="music">
+			
+		</div>
+	</div>
+
+	<!--
 	<header id="userpic search" class="search">
 		<form action="">
 			<input type="text" placeholder="Search"/>
@@ -14,9 +30,7 @@
 				<img type="image/svg+xml" width="32" height="32" src="../../assets/img/search.svg" alt="Search"/>
 			</button>
 		</form>
-		<!--
 			<img class="avatar" width="75" height="75" src="photo.jpg" alt="Photo"/>
-		-->
 	</header>
 	<main id="items" class="content widget">
 		<div class="container">
@@ -33,19 +47,33 @@
 			<a href="https://google.com">
 				<img type="image/svg+xml" width="50" height="50" src="../../assets/img/like.svg" alt="Likes"/>
 			</a>
-			<!--=====================-->
 			<a href="https://google.com">
 				<img type="image/svg+xml" width="50" height="50" src="../../assets/img/story.svg" alt="History"/>
 			</a>
-			<!--=====================-->
 			<a href="https://google.com">
 				<img class="add-playlist" type="image/svg+xml" width="50" height="50" src="../../assets/img/add.svg" alt="Add"/>
 			</a>
 		</div>
 	</aside>
 	<footer id="footer" class="footer">
-		<!-- <img type="image/svg+xml" src="../../assets/img/null.png" alt="null"/> -->
+		<img type="image/svg+xml" src="../../assets/img/null.png" alt="null"/> 
 	</footer>
-	<script type="text/javascript" src="./home.js"></script>
+	-->
+
+	<script type="text/javascript" src="https://connect.soundcloud.com/sdk/sdk-3.3.2.js"></script>
+	<script type="text/javascript">
+		SC.initialize({
+			client_id: 'YOUR_CLIENT_ID',
+			redirect_uri: 'https://example.com/callback',
+			response_type: 'code',
+			scope: ''
+		});
+		// Initiate auth popup
+		SC.connect().then(function() {
+			return SC.get('/me');
+		}).then(function(me) {
+			alert('Hello, ' + me.username);
+		});
+	</script>
 </body>
 </html>

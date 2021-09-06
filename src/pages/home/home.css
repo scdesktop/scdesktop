@@ -1,4 +1,12 @@
-html, body {
+.wrapper {
+
+}
+
+.search {
+	display: flex;
+}
+
+/*html, body {
 	background-color: #1E1D1D;
 }
 
@@ -74,7 +82,6 @@ input:-ms-input-placeholder {
 
 .burger {
 	display: block;
-	/*margin: ;*/
 }
 
 .topic {
@@ -83,7 +90,7 @@ input:-ms-input-placeholder {
 }
 
 .topic:hover {
-	/*background-color: #070707;*/
+	background-color: #070707;
 }
 
 aside .add-playlist {
@@ -96,3 +103,4 @@ aside .add-playlist {
 .playlist {
 	background-color: #070707;
 }
+*/
