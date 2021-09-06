@@ -3,8 +3,8 @@
 	Please confirm this pull request meets the following requirements:
 -->
 
-- [ ] I followed the contributing guidelines: <https://github.com/scdesktop/scdesktop/blob/develop/.github/CONTRIBUTING.rst>
-- [ ] I also looked at the [code of conduct][code_of_conduct]
+- [ ] I followed the contributing guidelines: <https://github.com/scdesktop/scdesktop/blob/develop/.github/CONTRIBUTING.rst>.
+- [ ] I also looked at the [code of conduct][code_of_conduct].
 
 #### Which change are you proposing?
 > Please replace this text with an explanation of why you think these changes should be made.
