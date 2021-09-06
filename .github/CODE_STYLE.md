@@ -2,7 +2,7 @@
 
 ## Example
 <details>
-	<summary>Click to see a basic html example</summary>
+	<summary>Click to see a basic example</summary>
 
 ```html
 <!DOCTYPE html>
