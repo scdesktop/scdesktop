@@ -11,8 +11,11 @@
 
 <!-- Example:
 > I added new functionality, fixed a bug, changed, etc...
+
+Bug/Issue number: #x
 -->
 
+Bug/Issue number: 
 
 ---
 
