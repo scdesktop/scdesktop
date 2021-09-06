@@ -5,6 +5,7 @@
 	<title>SoundCloud</title>
 	<link rel="stylesheet" type="text/css" href="../../assets/css/main.css"/>
 	<link rel="stylesheet" type="text/css" href="./home.css"/>
+	<link rel="icon" type="image/x-icon" href="../../assets/favicon.ico"/>
 </head>
 <body>
 	<div class="wrapper">
@@ -41,16 +42,16 @@
 	</main>
 	<aside id="sidebar" class="sidebar">
 		<a href="https://google.com">
-			<img class="burger" type="image/svg+xml" width="60" height="60" src="../../assets/img/controls/burger.svg" alt="Hamburger"/>
+			
 		</a>
 		<div class="topic">
-			<a href="https://google.com">
+			<a href="">
 				<img type="image/svg+xml" width="50" height="50" src="../../assets/img/like.svg" alt="Likes"/>
 			</a>
-			<a href="https://google.com">
+			<a href="">
 				<img type="image/svg+xml" width="50" height="50" src="../../assets/img/story.svg" alt="History"/>
 			</a>
-			<a href="https://google.com">
+			<a href="">
 				<img class="add-playlist" type="image/svg+xml" width="50" height="50" src="../../assets/img/add.svg" alt="Add"/>
 			</a>
 		</div>
@@ -68,6 +69,7 @@
 			response_type: 'code',
 			scope: ''
 		});
+
 		// Initiate auth popup
 		SC.connect().then(function() {
 			return SC.get('/me');
