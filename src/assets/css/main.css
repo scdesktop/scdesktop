@@ -20,14 +20,3 @@ a:hover {
 a:active {
 	color: #FA7637;
 }
-
-h1, h2, h3, h4, h5, h6 {
-
-}
-
-.avatar {
-	background-color: #AFACAA;
-	border: 4px solid #000;
-	border-radius: 80px;
-	margin-right: 25px;
-}
