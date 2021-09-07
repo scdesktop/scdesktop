@@ -12,5 +12,5 @@ Do not forget to fill in `change log <https://github.com/scdesktop/scdesktop/blo
 the maintainers of the project will check the changes and, if the description is correct, they will add your changes to the project.
 
 To report a bug, suggest new functionality, 
-or ask a question, go to `Issues <https://github.com/scdesktop/scdesktop/issues>`_. 
+or ask a question, go to `issues <https://github.com/scdesktop/scdesktop/issues>`_. 
 Try to make Minimal Reproducible Example (MRE) and specify your `scdesktop version <https://github.com/scdesktop/scdesktop/releases>`_ to let others help you.
