@@ -15,7 +15,7 @@
 	-->
 	<style>
 		.green {
-			color: #000;
+			color: #00ff00;
 		}
 
 		p {
