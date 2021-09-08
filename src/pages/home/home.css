@@ -1,7 +1,20 @@
-.wrapper {
+html, body {
+	background-color: #1e1d1d;
+}
 
+.wrapper {
+	width: 100%;
 }
 
 .search {
 	display: flex;
+	background-color: #2d2c2c;
+}
+
+.search input {
+	justify-content: center;
+}
+
+.avatar {
+	justify-content: flex-end;
 }
