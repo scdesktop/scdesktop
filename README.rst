@@ -30,7 +30,8 @@ Windows
 Installing `scdesktop <https://git-scm.com/downloads>`_
 =======================================================
 
-.. code:: shell
+You can install from source with::
+
 	$ git clone https://github.com/scdesktop/scdesktop.git
 	$ cd scdesktop
 	$ npm install && npm start
