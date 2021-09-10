@@ -3,11 +3,13 @@ html, body {
 }
 
 .wrapper {
-	width: 100%;
+	display: flex;
+	min-height: 100%;
+	overflow: hidden;
+	flex-direction: column;
 }
 
 .search {
-	display: flex;
 	background-color: #2d2c2c;
 }
 
