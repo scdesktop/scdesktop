@@ -7,13 +7,6 @@ indent_size = 4
 insert_final_newline = true
 end_of_line = lf
 
-[*.{rst, json}]
-indent_style = tab
-indent_size = 2
-
-[*.{yml, yaml}]
+[*.{rst, json, yml, yaml}]
 indent_style = space
 indent_size = 2
-
-[*.svg]
-insert_final_newline = ignore
