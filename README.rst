@@ -30,7 +30,9 @@ Windows
 Installing `scdesktop <https://git-scm.com/downloads>`_
 =======================================================
 
-You can install from source with::
+You can install from source with:
+
+.. code:: shell
 
 	$ git clone https://github.com/scdesktop/scdesktop.git
 	$ cd scdesktop
