@@ -45,7 +45,7 @@ Official scdesktop resources:
 - News: `@scdesktop <https://t.me/scdesktop>`_
 - Documentation: `docs/doc.rst <https://github.com/scdesktop/scdesktop/tree/master/docs/doc.rst>`_
 - Source: `GitHub repo <https://github.com/scdesktop/scdesktop>`_
-- Issues/Bug tracker: `GitHub issues tracker <https://github.com/scdesktop/scdesktop/issues>`_
+- Bug/Issues tracker: `GitHub issues tracker <https://github.com/scdesktop/scdesktop/issues>`_
 - Example: `examples/exp.ai <https://github.com/scdesktop/scdesktop/tree/master/examples/exp.ai>`_
 
 =================
