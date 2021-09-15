@@ -1,17 +1,16 @@
-============================================================
-`SoundCloud Desktop <https://soundcloud.com>`_ – For Windows
-============================================================
+==============================================
+`SoundCloud Desktop <https://soundcloud.com>`_
+==============================================
 
-This program is created for further use of ordinary Internet users. 
-The idea is to listen to music from the streaming platform directly without going to the site. 
-The created program will provide an opportunity to listen to music from the SoundCloud website on your computer, - as an application.
+SoundCloud Desktop is an open source `Electron <https://www.electronjs.org>`_-based GitHub app. 
+It is written in `JavaScript <https://www.javascript.com>`_.
 
-The author chose the Windows operating system for this application, because he himself uses the system.
-In the future, the author will think about implementing it on other platforms, but the possibility of this is very small.
+..
+  It is written in `TypeScript <http://www.typescriptlang.org>`_ and uses `React <https://reactjs.org>`.
 
 .. image:: ./source/assets/img/doc/window.png
-	:align: center
-	:alt: Window
+  :align: center
+  :alt: Window
 
 ------
 Guide:
@@ -34,13 +33,13 @@ You can install from source with:
 
 .. code:: shell
 
-	$ git clone https://github.com/scdesktop/scdesktop.git
-	$ cd scdesktop
-	$ npm install && npm start
+  $ git clone https://github.com/scdesktop/scdesktop.git
+  $ cd scdesktop
+  $ npm install && npm start
 
-=============================
-Official scdesktop resources:
-=============================
+===================
+Official resources:
+===================
 
 - News: `@scdesktop <https://t.me/scdesktop>`_
 - Documentation: `docs/doc.rst <https://github.com/scdesktop/scdesktop/tree/master/docs/doc.rst>`_
