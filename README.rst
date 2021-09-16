@@ -3,7 +3,7 @@
 ==============================================
 
 SoundCloud Desktop is an open source `Electron <https://www.electronjs.org>`_-based GitHub app. 
-It is written in `JavaScript <https://www.javascript.com>`_.
+It is written in JavaScript.
 
 ..
   It is written in `TypeScript <http://www.typescriptlang.org>`_ and uses `React <https://reactjs.org>`.
