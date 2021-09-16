@@ -2,7 +2,7 @@
 `SoundCloud Desktop <https://soundcloud.com>`_
 ==============================================
 
-SoundCloud Desktop is an open source `Electron <https://www.electronjs.org>`_-based GitHub app. 
+SoundCloud Desktop is an open source `Electron <https://www.electronjs.org>`_-based SoundCloud app. 
 It is written in JavaScript.
 
 ..
