@@ -53,4 +53,4 @@ Code Contributors
 
 xxx
 
-Contribute for your own language: `scloc <https://github.com/scdesktop/scdesktop-locales>`_
+Contribute for your own language: `locales <https://github.com/scdesktop/locales.git>`_
