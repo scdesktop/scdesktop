@@ -4,10 +4,6 @@
 * GitHub: https://github.com/scdesktop/scdesktop/blob/master/LICENSE
 */
 
-span.timer-start, span.timer-end {
-	font-family: monospace;
-}
-
 a:link {
 	color: #FA7637;
 	text-decoration: none;
@@ -23,9 +19,4 @@ a:hover {
 
 a:active {
 	color: #FA7637;
-}
-
-ul, ol {
-	text-decoration: none;
-	list-style: none;
 }

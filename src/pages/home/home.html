@@ -2,61 +2,42 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8"/>
-	<!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-	<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"/>
-	<meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>SoundCloud</title>
 	<link rel="stylesheet" type="text/css" href="../../assets/css/main.css"/>
 	<link rel="stylesheet" type="text/css" href="./home.css"/>
-	<link rel="icon" type="image/x-icon" href="../../assets/favicon.ico"/>
 </head>
 <body>
-	<div class="wrapper">
-		<div class="search">
+	<header class="wrapper">
+		<nav id="navbar" class="nav">
 			<input type="text" placeholder="Search"/>
-			<div class="avatar"></div>
+			<img class="avatar" type="image/jpeg" src="photo.jpg" alt="Profile Photo"/>
+		</nav>
+	</header>
+	<main>
+		
+	</main>
+	<aside class="sidebar">
+		<ul class="menu">
+			<li><a href="#"></a></li>
+			<li><a href="#"></a></li>
+			<li><a href="#"></a></li>
+		</ul>
+	</aside>
+	<footer id="music-container" class="music">
+		<div class="player">
+			<img type="image/jpeg" src="NoMeta.jpg" alt="Music Cover"/>
+			<ul class="info">
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+			</ul>
 		</div>
-		<div class="content">
-			<div class="container"></div>
+		<div class="container">
+			<span class="timer-start">--:--</span>
+			<img src="../../assets/img/controls/play.svg" alt="Play/Pause"/>
+			<span class="timer-end">--:--</span>
 		</div>
-		<div class="sidebar">
-			<div class="topic"></div>
-		</div>
-
-		<!-- Player Info -->
-		<div class="music">
-			<div class="title">
-				<span id="title">-</span>
-			</div>
-			<div class="author">
-				<span id="author">-</span>
-			</div>
-			<div class="duration">
-				<span id="current">--:--</span>
-				<span id="duration">--:--</span>
-			</div>
-		</div>
-	</div>
-
-	<div class="if-offline" class="hide">
-		<i class="medium">wifi_off</i>
-	</div>
-
-	<script type="text/javascript" src="https://connect.soundcloud.com/sdk/sdk-3.3.2.js"></script>
-	<script type="text/javascript">
-		SC.initialize({
-			client_id: 'YOUR_CLIENT_ID',
-			redirect_uri: 'https://example.com/callback',
-			response_type: 'code',
-			scope: ''
-		});
-
-		// Initiate auth popup
-		SC.connect().then(function() {
-			return SC.get('/me');
-		}).then(function(me) {
-			alert('Hello, ' + me.username);
-		});
-	</script>
+	</footer>
 </body>
 </html>

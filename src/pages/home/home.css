@@ -1,22 +1,84 @@
+/**
+* Author: snxx
+* For license and copyright information please follow this like:
+* GitHub: https://github.com/scdesktop/scdesktop/blob/master/LICENSE
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
 html, body {
 	background-color: #1e1d1d;
+	width: 100%;
+	color: #fff;
 }
 
-.wrapper {
+nav {
 	display: flex;
-	min-height: 100%;
-	overflow: hidden;
-	flex-direction: column;
-}
-
-.search {
-	background-color: #2d2c2c;
-}
-
-.search input {
 	justify-content: center;
+	align-items: center;
+	background-color: #2c2c2c;
+	width: 100%;
+	height: 87px;
 }
 
-.avatar {
-	justify-content: flex-end;
+nav > input {
+	background-color: #6b6a69;
+	width: 683px;
+	height: 53px;
+	border-radius: 12px;
+}
+
+nav > img.avatar {
+	width: 58px;
+	height: 58px;
+	border:  4px solid #000;
+	border-radius: 50% !important;
+}
+
+main {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	width: 100%;
+}
+
+aside {
+	background-color: #353434;
+	width: 92px;
+	height: 100%;
+}
+
+/*li:first_child {
+	background-color: #070707;
+	width: 92px;
+	height: 92px;
+}*/
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: 0;
+	background-color: #070707;
+	width: 100%;
+	height: 131px;
+}
+
+footer > div.player > img {
+	width: 95px;
+	height: 95px;
+	border-radius: 21px;
+	background-color: #afacaa;
+	text-align: center;
+}
+
+div.player {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 }

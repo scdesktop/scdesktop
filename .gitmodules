@@ -1,3 +1,6 @@
 [submodule "src/assets/locales"]
 	path = src/assets/locales
 	url = https://github.com/scdesktop/locales.git
+[submodule "script"]
+	path = ./script
+	url = https://github.com/scdesktop/script.git
