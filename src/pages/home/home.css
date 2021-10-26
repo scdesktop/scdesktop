@@ -37,6 +37,7 @@ nav > img.avatar {
 	height: 58px;
 	border:  4px solid #000;
 	border-radius: 50% !important;
+	background-color: #afacaa;
 }
 
 main {
@@ -47,21 +48,24 @@ main {
 }
 
 aside {
+	display: block;
+	justify-content: center;
+	align-items: center;
 	background-color: #353434;
 	width: 92px;
-	height: 100%;
+	height: 684px;
+	position: absolute;
+	top: 0;
 }
 
-/*li:first_child {
+aside > ul.menu > li {
 	background-color: #070707;
 	width: 92px;
 	height: 92px;
-}*/
+}
 
 footer {
 	display: flex;
-	justify-content: center;
-	align-items: center;
 	position: absolute;
 	bottom: 0;
 	background-color: #070707;
@@ -81,4 +85,9 @@ div.player {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
+}
+
+div.container {
+	display: flex;
+	justify-content: center;
 }
