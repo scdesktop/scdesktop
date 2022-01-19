@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/scdesktop/scdesktop#readme",
   "dependencies": {
-    "electron": "^12.0.7"
+    "electron": "^12.1.0"
   }
 }
